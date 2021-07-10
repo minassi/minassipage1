@@ -1,0 +1,57 @@
+/*h1{
+    background-color: black;
+}*/
+
+*{
+    margin:0;
+}
+
+.box{
+    text-align: center;
+    width: 1000px;
+    margin:auto;
+    border: 1px solid black;
+}
+
+.container{
+    width:auto;
+}
+header{
+    background-color:black;
+    color:white;
+}
+
+.profile{
+    display: flex;
+    text-align: center;
+    height: 300px;
+}
+
+.image{
+    width:250px;
+    margin:5px auto;
+}
+
+.image img{
+    width:100%;
+    border-radius:50%;
+    border:1px solid black;
+}
+
+.text_box{
+    width:400px;
+    margin:auto;
+    border:1px solid black;
+}
+.text_box p{
+    margin:30px 10px;
+    border: 1px solid black;
+}
+
+.img_contents{
+    display:flex;
+}
+
+.none img{
+    border-radius: 0%;
+}
